@@ -1,0 +1,14 @@
+site_name: My Docs
+
+hooks:
+  - hooks.py
+
+plugins:
+  - search
+  - awesome-pages
+  - llmstxt:
+      full_output: llms-full.txt
+      sections:
+        Docs:
+          - "**"
+  - ask-claude
