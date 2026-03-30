@@ -4,11 +4,17 @@ hooks:
   - hooks.py
 
 plugins:
-  - search
+  - search:
+      prebuild_index: true
+      lang:
+        - en
+        - ja
   - awesome-pages
   - llmstxt:
       full_output: llms-full.txt
       sections:
         Docs:
           - "**"
-  - ask-claude
+  - ask-claude:
+      model: claude-haiku-4-5
+      backend_port: 8008
