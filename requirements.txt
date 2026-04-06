@@ -1,6 +1,7 @@
 mkdocs
 mkdocs-material
 mkdocs-awesome-pages-plugin
+pymdown-extensions
 mkdocs-llmstxt
 #git+https://github.com/iteam1/mkdocs-ask-claude
 -e /home/locch/Works/snx/mkdocs-ask-claude
